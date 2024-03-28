@@ -3,9 +3,10 @@
     width: 100%;
 }
 
-.header {
+header {
     display: flex;
     justify-content: flex-end;
+    background-color: turquoise;
 }
 .h1 {
     display: flex;
@@ -20,14 +21,13 @@
 }
 
 .body {
-    background-color: rgb(125, 246, 255);
+    background-color: rgb(8, 247, 227);
 }
 
 .nav {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    font-
-
+    font-size: 175%;
+    font-weight:bold;
 }
