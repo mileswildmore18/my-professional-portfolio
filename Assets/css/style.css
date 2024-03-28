@@ -3,8 +3,12 @@
     width: 100%;
 }
 
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
 .h1 {
-    display: inline;
+    display: flex;
     justify-content: flex-start;
     padding: 10px 20px;
     border-color: black;
@@ -21,6 +25,9 @@
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-
 
 }
