@@ -9,15 +9,15 @@
 }
 
 .flexbox {
-    height: 95vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    column-gap: 1em;
 }
 
 #header {
-    padding: 18px;
+    padding: 10px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,7 @@ h1 {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size:300%;
-    margin: 10px 10px;
+    margin: 0;
 }
 
 
@@ -87,7 +87,7 @@ p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.aside {
+.article {
     flex-grow: 2;
     background-color:aliceblue;
 }
@@ -98,9 +98,10 @@ p {
     flex-direction:column;
     color: rgb(78, 100, 128);
     font-size: 250%;
+    border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    width: 400px;
+    width: 250px;
     height: 100px;
 }
 
@@ -109,9 +110,10 @@ p {
     flex-direction:column;
     color: rgb(78, 100, 128);
     font-size: 250%;
+    border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    width: 300px;
+    width: 250px;
     height:800px;
 } 
 
@@ -123,7 +125,7 @@ p {
     font-size: 250%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    width:300px;
+    width:auto;
     height:100px;
 }
 
