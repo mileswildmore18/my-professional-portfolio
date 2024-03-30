@@ -1,9 +1,23 @@
 * {
     box-sizing: border-box;
-    width: 100%;
+    align-items: flex-start;
 }
 
-header {
+.body {
+    margin: 0;
+    justify-content: center;
+}
+
+.flexbox {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#header {
+    padding: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,9 +28,8 @@ header {
 h1 {
     display: flex;
     justify-content: flex-end;
-    width: 50%;
+    width: 30%;
     padding: 10px 10px;
-    border-color: black;
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,34 +37,39 @@ h1 {
     margin: 10px 10px;
 }
 
-.body {
-    background-color: rgb(8, 247, 227);
-}
 
-.nav {
+.nav, .links {
     display: flex;
     gap: 10%;
     justify-content: flex-end;
-    align-items: center; 
+    align-items: center;
+    flex-direction: row; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 175%;
     font-weight:bold;
+    text-decoration-line: underline solid;
 }
 
+p {
+    flex-wrap: wrap;
+}
+.stars {
+    background-image: url(../images/stars.jpg);
+}
 
-.phrase {
+#phrase {
     display:flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
 }
 
 h2 {
     display:flex;
     justify-content: flex-end;
     color: white;
-    background-color:black;
+    background-color: black;
+    width:45%;
     padding:20px 20px;
-    border-color: black;
     font-family: sans-serif;
 }
 
@@ -69,46 +87,62 @@ p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-aside {
+.aside {
+    flex-grow: 2;
     background-color:aliceblue;
 }
 
-.about, .work, .contact  {
+#about {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction:column;
+    color: rgb(78, 100, 128);
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 400px;
+    height: 100px;
+}
+
+#work {
     display:flex;
     flex-direction:column;
     color: rgb(78, 100, 128);
-    font-size: 300%;
+    font-size: 250%;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 300px;
+    height:800px;
+} 
+
+#contact {
+    display:flex;
+    flex-direction:column;
+    color: rgb(78, 100, 128);
+    background-color: rgb(144, 211, 241);
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width:300px;
+    height:100px;
 }
 
-.work {
-    display:flex;
-    color: rgb(78, 100, 128);
-    font-size: 300%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.contact {
-    display:flex;
-    color: rgb(78, 100, 128);
-    font-size: 300%;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
 .describe {
+    flex-grow: 1;
     display: flex;
-    justify-content: flex-end;
     flex-flow: row wrap;
-    color: rgb(78, 100, 128);
+    color: rgb(8, 10, 12);
     font-size: 125%;
     font-family:Arial, Helvetica, sans-serif;
 }
-    
 
-.info {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    font-size: 32px;
-    font-family:Arial, Helvetica, sans-serif;
+.describe div {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+
+.links div {
+    display:flex;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
