@@ -45,7 +45,7 @@ h1 {
     align-items: center;
     flex-direction: row; 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 175%;
+    font-size: 150%;
     font-weight:bold;
     text-decoration-line: underline solid;
 }
@@ -116,6 +116,13 @@ p {
     width: 250px;
     height:800px;
 } 
+
+.module {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../images/Horiseon.jpg)
+}
 
 #contact {
     display:flex;
