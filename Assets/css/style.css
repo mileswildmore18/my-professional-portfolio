@@ -102,17 +102,28 @@ p {
     background-color:lightblue;
 }
 
+.begin {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
 #work {
     display:flex;
     justify-content: center;
+    align-items: center;
     flex-direction:column;
+    flex-wrap: wrap;
     color: rgb(78, 100, 128);
     font-size: 168%;
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    height: 800px;
-    margin-right:80%;
+    height: auto;
+    width:25%;
+    margin-right: 60%
 } 
 
 .module {
@@ -120,7 +131,7 @@ p {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction:column;
-    width: 45%;
+    width: 1000px;
     height:650px;
     background-image: url(../images/Horiseon.jpg);  
 }
@@ -131,16 +142,20 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right:60%
+    flex-wrap:wrap;
+    width: 90%;
+    margin-right:60%;
 
 }
 
 h4 {
-    justify-content:flex-end;
-    align-items: flex-end;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
     background-color: blue;
     color:white;
     font-size:125%;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 .soon {
@@ -150,7 +165,7 @@ h4 {
   
 .column {
     flex: 33.33%;
-    padding: 5px;
+    padding: 10px;
   }
 
 .describe {
