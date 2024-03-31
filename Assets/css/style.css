@@ -8,20 +8,13 @@
     justify-content: center;
 }
 
-.flexbox {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    column-gap: 1em;
-}
-
 .header {
     padding: 10px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
     background-color: turquoise;
     white-space: nowrap;
 }
@@ -31,16 +24,14 @@
     gap: 10%;
     justify-content: flex-end;
     align-items: center;
-    flex-direction: row; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     font-weight:bold;
-    text-decoration-line: underline solid;
 }
 h1 {
     display: flex;
     justify-content: flex-end;
-    width: 30%;
+    width: 25%;
     padding: 10px 10px;
     color: white;
     background-color: black;
@@ -102,11 +93,11 @@ p {
     flex-wrap: wrap;
     flex-direction:column;
     color: rgb(78, 100, 128);
-    font-size: 250%;
+    font-size: 200%;
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    width: 50.5%;
+    width: 51.5%;
     height: 180px;
 }
 
@@ -138,8 +129,19 @@ p {
     align-items: flex-end;
     width: 85%;
     height:650px;
-    background-image: url(../images/Horiseon.jpg)
-    
+    background-image: url(../images/Horiseon.jpg);  
+}
+
+.describe {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;    
+    flex-direction: column;
+    background-color: rgb(144, 211, 241);;
+    font-size: 125%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #contact {
@@ -148,36 +150,39 @@ p {
     justify-content: center;
     align-items: center;
     color: rgb(78, 100, 128);
-    font-size: 250%;
+    font-size: 200%;
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     width:15%;
-    height:100px;
-}
-
-.describe {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: rgb(144, 211, 241);;
-    font-size: 125%;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.describe div {
-    flex-grow: 1;
-    margin: 0 8px;
+    height:70px;
 }
 
 .links {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10%; 
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction:row;
+    gap: 10%;
+    margin-right: 15%; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     font-weight:bold;
     text-decoration-line: underline solid;
+}
+
+a:visited {
+    color: rgb(179, 87, 87);
+}
+a:link{
+    color:red;
+}
+
+.copyright {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aquamarine;
+    font-size: 100%;
+    font-weight: bold;
 }
