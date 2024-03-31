@@ -97,6 +97,7 @@ p {
     display:flex;
     justify-content: flex-end;
     align-items: center;
+    flex-direction:column;
     flex-grow: 2;
     background-color:lightblue;
 }
@@ -104,46 +105,53 @@ p {
 #work {
     display:flex;
     justify-content: center;
-    align-items: center;
     flex-direction:column;
     color: rgb(78, 100, 128);
     font-size: 168%;
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    width: 15%;
     height: 800px;
+    margin-right:80%;
 } 
 
 .module {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 90%;
+    flex-direction:column;
+    width: 45%;
     height:650px;
     background-image: url(../images/Horiseon.jpg);  
 }
 
-.code, .learn, .master {
+
+.visual {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-image: url(../images/coding.jpg)
+    flex-direction: column;
+    margin-right:60%
+
+}
+
+h4 {
+    justify-content:flex-end;
+    align-items: flex-end;
+    background-color: blue;
+    color:white;
+    font-size:125%;
 } 
 
-.learn, .master {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url(../images/learning.jpg)
-} 
-
-.master {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url(../images/master.jpg)
-} 
+.soon {
+    display: flex;
+    width: 10%;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 
 .describe {
     flex-grow: 1;
