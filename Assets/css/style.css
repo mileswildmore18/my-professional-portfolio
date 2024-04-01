@@ -118,7 +118,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     height: 800px;
-    width: 100%;
+    width: 30%;
 } 
 
 /* The basic flex properties for the main section of the webpage */
@@ -133,9 +133,8 @@ p {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction:column;
-    flex-basis: 100%;
-    margin: 20px;
-    height: 80%;
+    margin: 60px;
+    height: 100%;
     width:80%;
     background-image: url(../images/Horiseon.jpg);  
 }
