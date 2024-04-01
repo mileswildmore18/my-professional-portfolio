@@ -119,7 +119,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     height: 800px;
-    width: 15%;
+    width: 100%;
 } 
 
 /* The basic flex properties for the main section of the webpage */
@@ -136,6 +136,7 @@ p {
     flex-direction:column;
     flex-basis: 100%;
     margin: 20px;
+    width:80%;
     background-image: url(../images/Horiseon.jpg);  
 }
 
@@ -148,7 +149,7 @@ p {
 /* This will level the properties of my smaller pictures in comaparison to my module class */
 .column {
     display: flex;
-    width: 50%;
+    width: 40%;
     padding: 30px;
     flex-direction: column;
   }
