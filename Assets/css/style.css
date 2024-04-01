@@ -12,7 +12,7 @@
     display: flex;
     background-color: turquoise;
 }
-
+/*The navigation bar properties.*/
 .nav {
     display: flex;
     gap: 20%;
@@ -24,9 +24,10 @@
     margin-left: 45%;
     white-space: nowrap;
 }
+
+/* This shows the properties for my name on the top left of the website.*/
 h1 {
-    display: flex;
-    
+    display: flex;    
     justify-content: flex-end;
     width: 30%;
     padding: 10px 10px;
@@ -37,17 +38,19 @@ h1 {
     margin: 0;
 }
 
-
+/* The background picture below the header and navigation */
 .stars {
     background-image: url(../images/stars.jpg);
 }
 
+/* This is the properties to my "Let's Get Wild" phrase positioning on the right side on the star picture.*/
 #phrase {
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
+/* The properties for the size of my "Let's Get Wild" and "Code Refactor Project" */
 h2 {
     display:flex;
     justify-content: flex-end;
@@ -58,6 +61,7 @@ h2 {
     font-family: sans-serif;
 }
 
+/* These are the properties for my "About Me" section */
 .article {
     display:flex;
     justify-content: flex-end;
@@ -66,6 +70,7 @@ h2 {
     background-color:aliceblue;
 }
 
+/* My "About Me" id title properties */
 #about {
     display:flex;
     justify-content: center;
@@ -81,6 +86,7 @@ h2 {
     height: 180px;
 }
 
+/* This includes the size, positioning, design of my paragraph about me. */
 p {
     display: flex;
     justify-content: flex-end;
@@ -90,11 +96,14 @@ p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
+
+/* The flexbox and background colour properties of the "Aside" class */
 .project {
     display:flex;
     background-color:lightblue;
 }
 
+/* The properties, flexbox and settings for my "Work" title in the middle left of the page */
 #work {
     display:flex;
     justify-content: center;
@@ -110,35 +119,39 @@ p {
     width: 20%;
 } 
 
+/* The basic flex properties for the main section of the webpage */
 .begin {
     display: flex;
     flex-direction: column;
 }
 
+/* The properties for my picture of the 1st live webpage */
 .module {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction:column;
-    margin: 20px;
-    width: 1400px;
-    height:650px;
+    flex-basis: 100%;
     background-image: url(../images/Horiseon.jpg);  
 }
 
+/* The parent flexbox property for my smaller pictures for future projects */
 .soon {
     display: flex;
     flex-direction: row;
   }
 
+/* This will level the properties of my smaller pictures in comaparison to my module class */
 .column {
     display: flex;
     width: 50%;
-    padding: 20px;
+    padding: 30px;
     flex-direction: column;
   }
 
+  /* The, properties for my descriptions of my future projects for the small pictures */
 h4 {
+    display: flex;
     justify-content:center;
     align-items: center;
     align-content: center;
@@ -150,12 +163,14 @@ h4 {
     font-family: Arial, Helvetica, sans-serif;
     white-space: nowrap;
 } 
-  
+
+/* The basic flexbox and background properties for my "Contact" section */
 .describe {
     display: flex;    
     background-color: rgb(144, 211, 241);;
 }
 
+/* The properties for my "Contact" title */
 #contact {
     display:flex;
     flex-direction:column;
@@ -170,6 +185,7 @@ h4 {
     height:55px;
 }
 
+/* The properties for My contact links to find me on different platforms */
 .links {
     display: flex;
     justify-content: center;
@@ -183,6 +199,7 @@ h4 {
     text-decoration-line: underline solid;
 }
 
+/* Property colours for sites on the page visitied */
 a:visited {
     color: rgb(179, 87, 87);
 }
@@ -190,12 +207,13 @@ a:link{
     color:red;
 }
 
+/* The properties for my footer section */
 .copyright {
     display:flex;
+    background-color:aquamarine;
     justify-content: center;
     align-items: center;
-    background-color:aquamarine;
-    font-size: 100%;
+    font-size: 120%;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
