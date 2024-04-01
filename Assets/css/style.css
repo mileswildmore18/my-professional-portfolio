@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
 }
-
+/* The properties for the entire webpage */
 .body {
     margin: 0;
     justify-content: center;
 }
 
+/* The properties for the flexbox and colour for the header*/
 .header {
     display: flex;
     background-color: turquoise;
@@ -66,7 +67,6 @@ h2 {
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    flex-grow: 2;
     background-color:aliceblue;
 }
 
@@ -204,8 +204,14 @@ h4 {
 a:visited {
     color: rgb(179, 87, 87);
 }
+
+/* Property colours for sites that have not been visited yet */
 a:link{
     color:red;
+}
+/*Properties when the links are hovered over */
+a:hover{
+    background-color:yellow;
 }
 
 /* The properties for my footer section */
