@@ -5,7 +5,7 @@
 }
 /* The properties for the entire webpage */
 .body {
-    flex-basis:100%;
+    flex-basis: 100%;
     margin: 0;
     justify-content: center;
 }
