@@ -132,6 +132,7 @@ p {
     align-items: flex-end;
     flex-direction:column;
     flex-basis: 100%;
+    margin: 20px;
     background-image: url(../images/Horiseon.jpg);  
 }
 
