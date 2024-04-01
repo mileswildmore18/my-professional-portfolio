@@ -117,8 +117,8 @@ p {
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    height: 800px;
-    width: 30%;
+    height: 1000px;
+    width: 14.55%;
 } 
 
 /* The basic flex properties for the main section of the webpage */
@@ -133,10 +133,10 @@ p {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction:column;
-    margin: 60px;
-    height: 100%;
-    width:80%;
-    background-image: url(../images/Horiseon.jpg);  
+    margin: 20px;
+    height: 800px;
+    width:100%;
+    background-image: url(../images/Horiseon.jpg) 
 }
 
 /* The parent flexbox property for my smaller pictures for future projects */
@@ -149,7 +149,7 @@ p {
 .column {
     display: flex;
     width: 30%;
-    height: 20%;
+    height: 25%;
     padding: 30px;
     flex-direction: column;
   }
