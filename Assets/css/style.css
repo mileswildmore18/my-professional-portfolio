@@ -67,7 +67,6 @@ h2 {
 /* These are the properties for my "About Me" section */
 .article {
     display:flex;
-    flex-basis:100%;
     justify-content: flex-end;
     align-items: center;
     background-color:aliceblue;
@@ -136,7 +135,8 @@ p {
     flex-direction:column;
     flex-basis: 100%;
     margin: 20px;
-    width:80%;
+    height: 800px;
+    width:100%;
     background-image: url(../images/Horiseon.jpg);  
 }
 
