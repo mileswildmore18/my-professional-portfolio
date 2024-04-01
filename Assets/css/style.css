@@ -136,7 +136,7 @@ p {
     flex-basis: 100%;
     margin: 20px;
     height: 800px;
-    width:100%;
+    width:80%;
     background-image: url(../images/Horiseon.jpg);  
 }
 
@@ -149,7 +149,8 @@ p {
 /* This will level the properties of my smaller pictures in comaparison to my module class */
 .column {
     display: flex;
-    width: 40%;
+    width: 30%;
+    height: 20%;
     padding: 30px;
     flex-direction: column;
   }
