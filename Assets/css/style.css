@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .body {
@@ -9,24 +9,19 @@
 }
 
 .header {
-    padding: 10px 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
     background-color: turquoise;
-    white-space: nowrap;
 }
 
-.header nav {
+.nav {
     display: flex;
-    gap: 10%;
+    gap: 20%;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     font-weight:bold;
+    margin-left: 45%
 }
 h1 {
     display: flex;
@@ -95,10 +90,6 @@ p {
 }
 .project {
     display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction:column;
-    flex-grow: 2;
     background-color:lightblue;
 }
 
@@ -121,9 +112,8 @@ p {
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    height: auto;
-    width:25%;
-    margin-right: 60%
+    height: 800px;
+    width: 20%;
 } 
 
 .module {
@@ -131,67 +121,51 @@ p {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction:column;
+    margin: 20px;
     width: 1000px;
     height:650px;
     background-image: url(../images/Horiseon.jpg);  
 }
 
-
-.visual {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap:wrap;
-    width: 90%;
-    margin-right:60%;
-
-}
+.soon {
+    display: flex;
+    flex-direction: row;
+  }
 
 h4 {
     justify-content:center;
     align-items: center;
     align-content: center;
+    flex-direction:row;
     background-color: blue;
     color:white;
     font-size:125%;
     font-family: Arial, Helvetica, sans-serif;
 } 
-
-.soon {
-    display: flex;
-    width: 10%;
-  }
   
 .column {
-    flex: 33.33%;
-    padding: 10px;
+    display: flex;
+    width: 50%;
+    padding: 20px;
   }
 
 .describe {
-    flex-grow: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: center;    
-    flex-direction: column;
+    display: flex;    
     background-color: rgb(144, 211, 241);;
-    font-size: 125%;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 #contact {
     display:flex;
     flex-direction:column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     color: rgb(78, 100, 128);
-    font-size: 120%;
+    font-size: 150%;
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     width:14.30%;
-    height:70px;
+    height:55px;
 }
 
 .links {
@@ -200,9 +174,9 @@ h4 {
     align-items: center;
     flex-direction:row;
     gap: 20%;
-    margin-left: 50%; 
+    margin-left: 25%; 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
+    font-size: 150%;
     font-weight:bold;
     text-decoration-line: underline solid;
 }
