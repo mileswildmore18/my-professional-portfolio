@@ -117,7 +117,7 @@ p {
     border-right: solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    height: 1000px;
+    height: 800px;
     width: 14.55%;
 } 
 
@@ -190,7 +190,8 @@ h4 {
 
 /* The basic flexbox and background properties for my "Contact" section */
 .describe {
-    display: flex;    
+    display: flex;
+    flex-wrap: wrap;    
     background-color: rgb(144, 211, 241);;
 }
 
@@ -216,9 +217,9 @@ h4 {
     align-items: center;
     flex-direction:row;
     gap: 20%;
-    margin-left: 25%; 
+    margin-left: 20%; 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
+    font-size: 120%;
     font-weight:bold;
     text-decoration-line: underline solid;
 }
