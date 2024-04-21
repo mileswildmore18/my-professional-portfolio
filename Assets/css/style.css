@@ -40,10 +40,20 @@ h1 {
     font-size:300%;
     margin: 0;
 }
+/* Photo of Miles */
+.me {
+    height:80%;
+}
 
 /* The background picture below the header and navigation */
 .stars {
     background-image: url(../images/stars.jpg);
+}
+
+h2 {
+    background-color:black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* This is the properties to my "Let's Get Wild" phrase positioning on the right side on the star picture.*/
@@ -53,16 +63,6 @@ h1 {
     align-items: flex-end;
 }
 
-/* The properties for the size of my "Let's Get Wild" and "Code Refactor Project" */
-h2 {
-    display:flex;
-    justify-content: flex-end;
-    color: white;
-    background-color: black;
-    width:40%;
-    padding:20px 20px;
-    font-family: sans-serif;
-}
 
 /* These are the properties for my "About Me" section */
 .article {
@@ -73,7 +73,7 @@ h2 {
 }
 
 /* My "About Me" id title properties */
-#about {
+.about {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -130,28 +130,47 @@ p {
 /* The properties for my picture of the 1st live webpage */
 .module {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-direction: column;
+    text-align:center;
+}
+/* Aligns the properties of the Horiseon picture and the title of the picture */
+.second {
+    display:flex;
+    position: relative;
+    align-items: center;
     flex-direction:column;
-    margin: 20px;
-    height: 800px;
-    width:100%;
-    background-image: url(../images/Horiseon.jpg) 
+}
+
+/* Properties of the Horiseon picture */
+.first {
+    width:75%;
+    padding-top: 20px;
+}    
+
+
+/* Adds properties for text to appear on the bottom right of the picture of Horiseon */
+.right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* The parent flexbox property for my smaller pictures for future projects */
 .soon {
     display: flex;
-    flex-direction: row;
+    justify-content:center;
   }
 
 /* This will level the properties of my smaller pictures in comaparison to my module class */
 .column {
     display: flex;
+    flex-direction: column;
     width: 30%;
     height: 25%;
     padding: 30px;
-    flex-direction: column;
+    
   }
 
   /* The, properties for my descriptions of my future projects for the small pictures */
@@ -161,7 +180,7 @@ h4 {
     align-items: center;
     align-content: center;
     flex-direction:column;
-    background-color: blue;
+    background-color: black;
     color:white;
     font-size:125%;
     margin: 10px;
