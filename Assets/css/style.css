@@ -143,6 +143,7 @@ p {
 
 /* Properties of the Horiseon picture */
 .first {
+    display:flex;
     width:75%;
     padding-top: 20px;
 }    
