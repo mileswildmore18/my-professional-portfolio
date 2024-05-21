@@ -102,6 +102,7 @@ p {
 /* The flexbox and background colour properties of the "Aside" class */
 .project {
     display:flex;
+    
     background-color:lightblue;
 }
 
@@ -249,3 +250,29 @@ a:hover{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width:1000px) {
+    .project {
+        display: flex;
+        flex-direction:column-reverse;
+        background-color: skyblue;
+    }
+    .second {
+        display:flex;
+        flex-shrink: 4;
+    }
+    .soon {
+        display:flex;
+        flex-shrink: 4;
+    }
+    .header {
+        display:flex;
+        flex-shrink: 4;
+    }
+    .work {
+        display:flex;
+        flex-grow:4;
+    }
+ }
+
+
